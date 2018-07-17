@@ -8,7 +8,7 @@
     <data-source>
         <name>java:app/datasources/environment-aware-configurationDS</name>
         <class-name>${ENV=DATASOURCE_CLASS}</class-name>
-        <url>jdbc:${ENV=DB_ENGINE}://${ENV=DB_HOST}:${ENV=DB_PORT}/${ENV=DB_NAME}</url>
+        <url>${ENV=DB_URL}</url>
         <user>${ENV=DB_USER}</user>
         <password>${ENV=DB_PASSWORD}</password>
         <max-pool-size>30</max-pool-size>
