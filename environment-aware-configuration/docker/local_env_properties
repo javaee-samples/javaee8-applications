@@ -1,0 +1,5 @@
+DATASOURCE_CLASS=org.apache.derby.jdbc.ClientDriver
+DB_ENGINE=derby
+DB_URL=//host.docker.internal:1527/environment-aware-configuration
+DB_USER=app
+DB_PASSWORD=app
