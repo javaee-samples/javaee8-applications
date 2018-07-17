@@ -38,9 +38,7 @@ To run it locally in you IDE you have to configure these Environment Variables:
 ```
 DATASOURCE_CLASS=org.apache.derby.jdbc.ClientDriver
 DB_ENGINE=derby
-DB_HOST=host.docker.internal
-DB_PORT=1527
-DB_NAME=environment-aware-configuration
+DB_URL=//host.docker.internal:1527/environment-aware-configuration
 DB_USER=app
 DB_PASSWORD=app
 ```
